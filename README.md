@@ -14,7 +14,7 @@ Body parameters for external partners
 
 Navn | Beskrivelse | Type | Informasjon
 -- | -- | -- | --
-type | Referanse til opprinnelsestype | OriginType | required
+type | Referanse til opprinnelsestype | [OriginType](https://hub.megler.vitec.net/Help/ResourceModel?modelName=OriginType) | required
 firstName | Fornavn | string | required
 lastName | Etternavn | string | required
 email | E-post | string | required
