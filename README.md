@@ -25,7 +25,7 @@ comment | Kommentar | string |  
 source | Kilde som naked domain | string | required
 sourceUrl | Nettadresse til source | string | required
 newsletter | Sender email til Nordvik nyhetsbrev | Boolean |  
-externalReference | Ekstern referanse hos partner | string | max length: 63
+reference | Menneskelig lesbar referanse for matching | string
 
 
 ## Other body parameters
