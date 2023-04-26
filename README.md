@@ -32,6 +32,7 @@ reference | Menneskelig lesbar referanse for matching | string
 
 Navn | Beskrivelse | Type | Informasjon
 -- | -- | -- | --
+departmentId | Et kontor sin unike ID fra Next for å sende lead direkte til kontor. Anbefales fremfor departmentSlug og departmentPostalCode. Kan ikke angis sammen med referanse til megler.| integer |  
 departmentSlug | Et kontors slug fra nordvikbolig.no/kontorer/{slug} for å sende lead direkte til kontor. Kan brukes istedenfor departmentPostalCode. Kan ikke angis sammen med referanse til megler. | string |  
 departmentPostalCode | Et kontors unike postnummer for å sende lead direkte til kontor. Kan brukes istedenfor deparmentSlug. Kan ikke angis sammen med referanse til megler. | string |  
 employeeEmail | E-post for å sende lead direkte til megler. Kan ikke angis sammen med referanse til kontor. | string |  
