@@ -57,7 +57,7 @@ debug | Sender respons data, men lagrer ikke i Next | Boolean |
 	"comment": "",
 	"source": "tjenestetorget.no",
 	"sourceUrl": "https://tjenestetorget.no/eiendom",
-	"externalReference": "XXXXXXXXX"
+	"reference": "XXXXXXXXX"
 }
 ```
 
