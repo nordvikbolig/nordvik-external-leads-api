@@ -36,7 +36,8 @@ departmentId | Et kontor sin unike ID fra Next for å sende lead direkte til kon
 departmentSlug | Et kontors slug fra nordvikbolig.no/kontorer/{slug} for å sende lead direkte til kontor. Kan brukes istedenfor departmentPostalCode. Kan ikke angis sammen med referanse til megler. | string |  
 departmentPostalCode | Et kontors unike postnummer for å sende lead direkte til kontor. Kan brukes istedenfor deparmentSlug. Kan ikke angis sammen med referanse til megler. | string |  
 employeeEmail | E-post for å sende lead direkte til megler. Kan ikke angis sammen med referanse til kontor. | string |  
-employee | E-post eller employeeId fra Next for å sende lead direkte til megler. Kan brukes istedenfor employeeEmail. Kan ikke angis sammen med referanse til kontor. | string |  
+employeeId | Referanse til megler i Next. Kan ikke angis sammen med referanse til kontor. | string |  
+employee | Erstattet av employeeEmail og employeeId. E-post eller employeeId fra Next for å sende lead direkte til megler. Kan brukes istedenfor employeeEmail. Kan ikke angis sammen med referanse til kontor. | string |  
 estateId | Referanse til oppdrag i Next | string |  
 streetAdress | Utgått. Erstattet av streetAddress med to D’er | string |  
 debug | Sender respons data, men lagrer ikke i Next | Boolean |
@@ -72,6 +73,13 @@ debug | Sender respons data, men lagrer ikke i Next | Boolean |
 	"source": "tjenestetorget.no",
 	"sourceUrl": "https://tjenestetorget.no/eiendom",
 	"employeeEmail": "t.kiligitto@nordvikbolig.no"
+}
+```
+Or with `employeeId` (Next Employee ID)
+```
+{
+	...
+	"employeeId": "TGK"
 }
 ```
 
