@@ -25,7 +25,7 @@ comment | Kommentar | string |  
 source | Kilde som naked domain | string | required
 sourceUrl | Nettadresse til source | string | required
 newsletter | Sender email til Nordvik nyhetsbrev | Boolean |  
-reference | Menneskelig lesbar referanse for matching | string
+externalReference | Menneskelig lesbar referanse for matching | string
 
 
 ## Other body parameters
@@ -57,7 +57,7 @@ debug | Sender respons data, men lagrer ikke i Next | Boolean |
 	"comment": "",
 	"source": "tjenestetorget.no",
 	"sourceUrl": "https://tjenestetorget.no/eiendom",
-	"reference": "XXXXXXXXX"
+	"externalReference": "XXXXXXXXX"
 }
 ```
 
